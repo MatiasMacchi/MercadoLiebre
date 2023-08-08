@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    
+}
+/*Header*/
+header{
+    display: flex;
+    background-color: #fff159;
+    height: 90px;
+    border: solid black 1px;
+    align-items: center;
+}
+.nav-logo{
+    width: 200px;
+    height: 90px;
+    background-color: #fff159;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem;
+
+}
+.BarraDeNav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    justify-content:flex-start;
+    align-items: center;
+}
+.main_header_search_bar{
+    display: flex;
+    width: 10px;
+    height: 30px;
+    margin: 5%;
+}
+input{
+    width: 200px;
+}
+.buscador{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+    border: solid black 1px;
+    margin: 40px;
+
+}
+.login-register-cart{
+    width: 450px;
+    height: 90px;
+    background-color: #fff159;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    margin: 0;
+}
+.icono-carrito{
+    height: 38px;
+    width: 38px;
+    display: flex;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    justify-content: left;
+    color: black;
+}
+li{
+    display: flex;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+a{
+    color: black;
+}
+/*Main de la Pagina*/
+main{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.Anuncio-Grande{
+    display: flex;
+    height: 200px;
+    padding: right;
+}
+.BarraDeArticulos{
+    background-color: grey;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+.BarraDeArticulos2{
+    background-color: grey;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.BarraDeArticulos3{
+    background-color: grey;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+article{
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    margin-top: 0;/*grrrr*/
+}
+imagenes
+/*Footer de la Pagina*/
+footer{
+    background-color: #fff159;
+    border: solid black 1px;
+}
